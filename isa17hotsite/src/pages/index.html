@@ -7,20 +7,25 @@ title: Interaction South America Floripa 2017
   <div class="row align-center">
     <div class="small-8 column text-center">
       <h1 hidden>Interaction South America Floripa 2017</h1>
-      <h1><img src="/assets/img/isa17.svg" alt="Interaction South America 2017 Floripa Logo" class="hero-logo"></h1>
-      <a href="#" data-open="video"><img src="/assets/img/ic-play.svg"></a>
-      <h3>Que tal ancorar em outros portos? <br>Navegar por outros mares?</h3>
-      <a href="https://www.sympla.com.br/pre-inscricao-interaction-south-america-floripa-2017__99444" class="button large">Inscreva-se agora!</a>
+      <h1><img src="assets/img/isa17.svg" alt="Interaction South America 2017 Floripa Logo" class="hero-logo"></h1>
+      <a href="#" data-open="video"><img src="assets/img/ic-play.svg"></a>
+      <h3>Que tal ancorar em outros portos? <br>Navegar por outros mares? <br><b> 9, 10 e 11 de novembro de 2017</b></h3>
+      <a href="https://www.sympla.com.br/interaction-south-america-floripa-2017__108278" class="button large">Inscreva-se agora!</a>
     </div>
   </div>
 </section>
 <section class="ilhas">
+  <div class="row column text-center">
+    <h2><b>Call for paper!</b></h2>
+    <h4>Envie seu artigo ou case de mercado com as temáticas <br>abaixo e apresente seu trabalho no ISAfloripa17</h4></br>
+    <a href="https://easychair.org/conferences/?conf=isa2017" class="button large">Submeta seu artigo</a></br>
+  </div>
   <div class="row">
     {{> ilhas }}
   </div>
   <div class="row column text-center">
-    <h2>Inscreva-se agora!</h2>
-    <a href="#" class="button large">Inscrições abertas</a>
+    <h2>Segundo lote de inscrições abertas.<br>Inscreva-se agora!</h2>
+    <a href="https://www.sympla.com.br/interaction-south-america-floripa-2017__108278" class="button large">Inscrições abertas</a>
   </div>
 </section>
 <section class="apoio text-center">
@@ -28,34 +33,27 @@ title: Interaction South America Floripa 2017
   {{> apoio }}
   <div class="row column mt-3">
     <h3>Quer patrocinar o ISA Floripa 2017?</h3>
-    <a href="https://drive.google.com/file/d/0BxHr4JgOZtHEWXpVR2ZWMkJUNjQ/view?usp=sharing" class="button large">Clique aqui</a>
+    <a href="https://drive.google.com/file/d/0Bxp3b2ymK-dNWHdtT2g2SHBEcHc/view" class="button large">Clique aqui</a>
     <p>Ou envie uma mensagem para a <a href="mailto:ixdafloripa@gmail.com">organização do evento</a></p>
   </div>
 </section>
-<section class="contagem">
-  <div class="row column text-center">
-    <h2>Até Novembro de 2017 faltam</h2>
-  </div>
-{{> contagem }}
+<section class="newsletter">
   <div class="row column text-center">
     <h4>Fique ligado e receba todas as novidades do ISA Floripa 2017!</h4>
   </div>
   <div class="row align-center">
-    <div class="small-10 medium-6 large-4" id="form-rd">
-      <div id="early-bird-45706710cb119f114714"></div>
-      <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
-      <script type="text/javascript">
-        new RDStationForms('early-bird-45706710cb119f114714-html', '').createForm();
-      </script>
-</div>
-    <!-- <div class="small-10 medium-6 large-4">
-      <div class="input-group">
-        <input class="input-group-field" type="email">
-        <div class="input-group-button">
-          <input type="submit" class="button" value="Enviar">
+    <div class="small-10 medium-6 large-4">
+      <form action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
+        <div class="input-group">
+          <input class="input-group-field" type="email" name="email">
+          <input type="hidden" name="token_rdstation" value="b0ed43d3e5d5050244d29bd8cf85651d" />
+          <input type="hidden" name="identificador" value="isa17-news" />
+          <div class="input-group-button">
+            <input type="submit" class="button" value="Enviar">
+          </div>
         </div>
-      </div>
-    </div> -->
+      </form>
+    </div>
   </div>
 </section>
 <footer>
@@ -65,5 +63,7 @@ title: Interaction South America Floripa 2017
   </div>
 </footer>
 <div class="reveal small" id="video" data-reveal>
-  <iframe src="https://player.vimeo.com/video/189651692" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class="flex-video widescreen vimeo">
+    <iframe src="https://player.vimeo.com/video/189651692" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
 </div>

@@ -15,9 +15,18 @@
   - name: Catarinas
     url: http://www.catarinasdesign.com.br/
     img: catarinas.svg
+  - name: Sensorama
+    url: http://sensoramadesign.com.br/
+    img: sensorama.png
   - name: Ideativo
-    url: http://www.ideativo.com.br/
+    url: http://ideativodesign.com.br/
     img: ideativo.svg
   - name: Nextt
     url: http://www.nextt.com.br/
     img: nextt.svg
+  - name: Casa do Código
+    url: https://www.casadocodigo.com.br/
+    img: cdc.svg
+  - name: SoftExpert
+    url: https://www.softexpert.com.br/
+    img: softexpert.svg
